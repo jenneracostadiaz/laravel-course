@@ -1,0 +1,15 @@
+body{
+    background-color: #101010;
+    color: #f5f5f5;
+}
+
+a{
+    color: aqua;
+}
+
+.card{
+    border:1px solid #f5f5f5;
+    border-radius:20px;
+    padding: 20px;
+    margin-bottom: 10px
+}
