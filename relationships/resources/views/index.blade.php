@@ -7,12 +7,6 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>{{ $user->name }} Phones</h1>
-
-    <ul>
-    @foreach ($user->roles as $role )
-        <li>{{ $role->name }} Added by:{{ $role->pivot->added_by }}</li>
-    @endforeach
-    </ul>
+    <h1>{{ $user->image->url }}</h1>
 </body>
 </html>
