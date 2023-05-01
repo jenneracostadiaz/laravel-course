@@ -16,6 +16,7 @@ class Example
      */
     public function handle(Request $request, Closure $next)
     {
-        return $next($request);
+        return redirect()->route('no-access');
+        // return $next($request);
     }
 }
