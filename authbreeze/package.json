@@ -16,7 +16,10 @@
         "axios": "^0.21",
         "laravel-mix": "^6.0.6",
         "lodash": "^4.17.19",
+<<<<<<< HEAD
         "node-notifier-cli": "^2.0.0",
+=======
+>>>>>>> d3671535065dcf54c69972d7e67d39146fa4e0cb
         "postcss": "^8.4.6",
         "tailwindcss": "^3.1.0"
     }

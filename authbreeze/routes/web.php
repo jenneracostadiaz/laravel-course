@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ExampleController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -21,4 +22,12 @@ Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth'])->name('dashboard');
 
+<<<<<<< HEAD
 require __DIR__.'/auth.php';
+=======
+Route::middleware('auth')->group(function () {
+    Route::get('/example', [ExampleController::class, 'index'])->name('example');
+});
+
+require __DIR__ . '/auth.php';
+>>>>>>> d3671535065dcf54c69972d7e67d39146fa4e0cb
